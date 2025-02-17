@@ -10,7 +10,6 @@ class MyHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // initialRoute: Approuters.HOME_PAGE,
       onGenerateRoute: Approuters.generateRoute,
       debugShowCheckedModeBanner: false,
       home: Dashboard(),

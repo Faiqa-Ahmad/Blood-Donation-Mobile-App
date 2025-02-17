@@ -4,17 +4,15 @@ import 'package:life_hero/routes/approuters.dart';
 class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 255, 240, 240),
       body: Center(
         child: Column(
-          mainAxisAlignment:
-              MainAxisAlignment.center, // Centers the content vertically
-          crossAxisAlignment: CrossAxisAlignment.center, // Centers horizontally
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Row(
-              mainAxisSize: MainAxisSize.min, // Keeps the Row's width minimal
+              mainAxisSize: MainAxisSize.min,
               children: [
                 Icon(Icons.bloodtype,
                     color: const Color.fromARGB(255, 0, 0, 0), size: 30),
@@ -29,7 +27,7 @@ class MainPage extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(height: 50), // Adds space between the title and the button
+            SizedBox(height: 50),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, Approuters.LOGIN_PAGE);
