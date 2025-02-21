@@ -14,13 +14,6 @@ class InfoWidget extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black,
-            blurRadius: 20,
-            offset: Offset(0, 5),
-          ),
-        ],
       ),
       child: Row(
         children: [

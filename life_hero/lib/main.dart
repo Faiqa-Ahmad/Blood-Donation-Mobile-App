@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:life_hero/dashboard.dart';
+import 'package:life_hero/dashboard1.dart';
 import 'package:life_hero/login.dart';
 import 'package:life_hero/mainpage.dart';
 import 'package:life_hero/register.dart';
